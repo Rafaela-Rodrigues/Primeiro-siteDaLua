@@ -1,3 +1,5 @@
+/* @import url ('https://fonts.googleapis.com/css2? */
+
 /* Aula 1 - css + html */
 /* 10/06/2021 - Front End 1 */
 /* Personalisar a página */
@@ -5,7 +7,14 @@
 mudar e se já coloquei o "Link" no arquivo html*/
 /* Por boa prátima coloque o arquivo "style.css" dentro de 
 uma pasta css, bem como uma pasta "img" para imagens*/
+/* Reset css, aplica os comandos para todas as tags sem exceção */
+html * {
+    margin: 0;
+    color: cornsilk;
+}
+
 body{
+    margin: 0;
     /* Centraliza o texto */
     text-align: center;
     /* Imagem de fundo */
@@ -24,31 +33,20 @@ body{
     background-color: black;
     
 }
-/* Personaliza meu título */
-h1 {
-    /* O valor da cor pode ser definida colocando o nome dela em 
-    inglês ou seu valor em hexadecimal, posso personalizar clicando
-    em cima do valor e selecionando a cor que desejo*/
-    color: #FF0000;
-    /* Coloque propriedade + valor */
-    font-family: Arial, Helvetica, sans-serif;
-    /* Define o estilo da fonte */
-    font-style: italic;
-    font-weight: bold;
-
-}
-/* Personalizar os subtítulos */
-/* Para usar o identificador usar o # + "id atribuído" */
-#green{
-    color:#00ff00;
+#cabecalho {
+    height: 20vh;
+    background-color: rgb(137, 43, 226);
 }
 
-#blue{
-    color:#0000FF;
+#conteudo {
+    height: 60vh;
+    background-color: rgba(128, 255, 0, 0.315);
 }
-/* Para usar classe coloca "." e o nome da classe */
-.colors{
-    color:darkblue;
-    font-size: 24px;
-    /* Define o tamanho */
+
+#rodape {
+    height: 20vh;
+    background-color: coral;
+}
+.icones {
+    height: 100px;
 }
