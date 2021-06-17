@@ -10,19 +10,13 @@ uma pasta css, bem como uma pasta "img" para imagens*/
 /* Reset css, aplica os comandos para todas as tags sem exceção */
 html * {
     margin: 0;
-    color: cornsilk;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 body{
     margin: 0;
     /* Centraliza o texto */
-    text-align: center;
-    /* Imagem de fundo */
-    background-image: url(https://bit.ly/3g7ht7X);
-    /* remover repetição */
-    background-repeat: no-repeat;
-    /* Posicionar a imagem */
-    background-position: center;
     /* Altura do body */
     height: 100vh;
     /* Tamanho da imagem */
@@ -30,23 +24,66 @@ body{
     /* Fixar a imagem de fundo */
     background-attachment: fixed;
     /* Cor de fundo */
-    background-color: black;
-    
+    background-color: white;
 }
 #cabecalho {
-    height: 20vh;
-    background-color: rgb(137, 43, 226);
+    height: 10vh;
+    background-color: #193dd8c7;
+    text-align: left;
+    display: flex;
+    color: #fff;
+}
+#cabecalho nav{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+#cabecalho nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#cabecalho nav ul li{
+    margin: 0 20px;
+    color: white;
 }
 
 #conteudo {
-    height: 60vh;
-    background-color: rgba(128, 255, 0, 0.315);
+    height: 80vh;
+    background-color: rgba(128, 255, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+.section1, .section2, .section3, .section4{
+    display: flex;
+    width: 500px;
+    height: 45%;
+    margin: 10px;
+}
+.div1, .div2{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 img, .section2 img, .section3 img, .section4 img{
+    width: 220px;
 }
 
+
 #rodape {
-    height: 20vh;
-    background-color: coral;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .icones {
-    height: 100px;
+    height: 50px;
+    margin: 0 10px;
 }

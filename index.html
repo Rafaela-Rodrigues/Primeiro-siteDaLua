@@ -1,5 +1,5 @@
-<!-- Aula 1 - css + html -->
-<!-- 10/06/2021 - Front End 1 -->
+<!-- 1 Checkpoint de Front End 1 -->
+<!-- 17/06/2021 - Front End 1 -->
 <!-- Para fazer um comentário em qualquer linguagem basta
 selecionar "Ctrl"+";" -->
 <!DOCTYPE html>
@@ -7,30 +7,87 @@ selecionar "Ctrl"+";" -->
 
 <!--Configuração da página-->
     <head>
-            <title>CSS</title>
+            <title>Mundo dos Cubos</title>
             <meta charset="UTF-8">
             <link rel="stylesheet" href="./css/style.css">
             <!-- Se esquecer tem como digitar na linha a palavra
             "link" e selecionar "link:css" que irá completar automaticamente. -->
-            <link rel="shortcut icon" href="https://tinyurl.com/s6ywrdbe
-            ">
+            <link rel="shortcut icon" href="https://img.icons8.com/fluent/48/000000/rubiks-cube.png"/>
 
     </head>
 
     <!--Conteúdo da página-->
     <body>
         <header id="cabecalho">
-            <h1>Meu site</h1>
+           <!-- <section class="caixa1"><img src="https://img.icons8.com/fluent/48/000000/rubiks-cube.png"/></section> -->
+           <img src="https://img.icons8.com/fluent/48/000000/rubiks-cube.png"/>
+        
+        <nav>
+            <h1>Mundo dos Cubos</h1>
+            <ul> 
+                <li>Quem somos</li>
+                <li>Contato</li>
+                <a href="https://ruwix.com/online-puzzle-simulators/" target="_blanck"><li>Cubo virtual</li></a>
+                <li>Cadastro</li>
+                <a href="https://youtu.be/IrY5JjSFR8I" target="_blanck"><li>Passo a passo</li></a>
+            </ul> 
+        </nav>
         </header>
         
         <main id="conteudo">
-            <h2>Conteudo principal</h2>
+            <!-- 1 imagem -->
+            <section class="section1">
+                <div class= "div1">
+                    <img src="https://cdn.pixabay.com/photo/2013/07/12/12/34/rubiks-cube-145949_960_720.png" alt="">
+                </div>
+                <div class="div2">
+                    <p>O primeiro modelo de cubo foi criado por Erno e é donominado <strong>Cubo 3x3</strong> 
+                        (3 cubos de altura e 3 de largura) e é sobre ele que iremos falar, desde o funcionamento até a montagem, mas fique tranquilo quanto aos outros tipos pois o 3x3 é o modelo básico para quem deseja ingressar no mundo dos cubos!</p>
+                </div>
+            </section>
+            <!-- 2 imagem -->
+            <section class="section2">
+                <div class= "div1">
+                    <img src="https://printerama.com.br/media/catalog/product/cache/b0c13a2ccecd8979554cfcb92112e614/c/u/cubo-m_gico-estampa_1_1.png" alt="">
+                </div>
+                <div class="div2">
+                    <p><em>Será que existe a maneira correta de segurar um cubo? Isso faz diferença?</em> <strong>Sim!</strong> A maneira como você segura e move um cubo influência sua montagem, como você costuma segurar? A maneira correta de se segurar um cubo é com a ponta dos dedos colocando as duas mãos, uma em cada lado, de forma a conseguir realizar movimentos verticais e horizontais</p>
+                </div>
+            </section>
+            <!-- 3 imagem (abaixo) -->
+            <section class="section3">
+                <div class= "div1">
+                    <img src="https://cdn.pixabay.com/photo/2014/11/28/18/51/cube-549070_960_720.jpg" alt="">
+                </div>
+                <div class="div2">
+                    <p>Em algum momento você já tirou os adesivos de um cubo e colocou de volta para parecer que montou? Já desmontou o cubo e montou corretamente, mas sem fazer os movimentos? Não se preocupe, quase sempre começamos assim, basta entender que o cubo não tem haver com sorte, mas sim  com matemática!</p>
+                </div>
+            </section>
+            <!-- 4 imagem (abaixo) -->
+            <section class="section4">
+                <div class= "div1">
+                    <img src="https://cdn.pixabay.com/photo/2013/12/22/08/30/magic-cube-232285_960_720.jpg" alt="">
+                </div>
+                <div class="div2">
+                    <p>Não se esqueça, existem muitos tipos de cubos, alguns que podem dar medo só de se olhar, mas o 3x3 é o cubo básico que se conseguimos aprender a montá-lo, os outros ficarão bem mais fáceis, assim como nas operações básicas da matemática. <strong>Não se esqueça, quanto mais praticar, melhor ficará, caso não tenha um cubo físico, acesse nossa aba <em>Cubo virtual</em>.</strong></p>
+                </div>
+            </section>
+
         </main>
 
         <footer id="rodape">
-            <h3>rodape</h3>
-            <a href="https://www.youtube.com" target="_blanck"><img class="icones" src="https://bit.ly/35n1pbY
+            <!-- link you tube -->
+            <a href="https://youtu.be/IrY5JjSFR8I" target="_blanck"><img class="icones" src="https://bit.ly/35n1pbY
             " alt="site do youtube"></a>
+            <!-- link wpp -->
+            <a href="https://web.whatsapp.com/" target="_blanck">
+                <img class= "icones" src="https://img.icons8.com/officel/40/000000/whatsapp.png" alt="Link para o wpp"/>
+            </a>
+            <!-- link instagram -->
+            <a href="https://www.instagram.com/" target="_blanck">
+                <img class= "icones" src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Link para o instagram"/>
+            </a>
+            
         </footer>
 
     </body>
